@@ -43,6 +43,7 @@
     "@babel/preset-env": "7.9.6",
     "@babel/preset-react": "7.9.4",
     "@babel/preset-typescript": "7.9.0",
+    "@capacitor/cli": "^2.4.4",
     "@capacitor/android": "2.4.2",
     "@capacitor/ios": "2.4.2",
     "@nrwl/cli": "10.4.4",
