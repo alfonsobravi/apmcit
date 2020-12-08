@@ -1,0 +1,44 @@
+{
+  "npmScope": "appflow-monorepo-sandbox",
+  "affected": {
+    "defaultBase": "master"
+  },
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.base.json": "*",
+    "tslint.json": "*",
+    ".eslintrc.json": "*",
+    "nx.json": "*"
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test", "e2e"]
+      }
+    }
+  },
+  "projects": {
+    "appflow-test-2": {
+      "tags": []
+    },
+    "appflow-test-2-e2e": {
+      "tags": [],
+      "implicitDependencies": ["appflow-test-2"]
+    },
+    "dummy-app": {
+      "tags": []
+    },
+    "dummy-app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["dummy-app"]
+    },
+    "common-stuff": {
+      "tags": []
+    }
+  }
+}
