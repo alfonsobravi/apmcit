@@ -1,0 +1,13 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "appflow-test-2",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "../../dist/apps/appflow-test-2",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
