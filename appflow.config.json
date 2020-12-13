@@ -1,0 +1,17 @@
+{
+    "apps":
+    [
+        {
+            "appId": "a8d3c92e",
+            "root": "apps/appflow-test-2",
+            "dependencyInstallCommand": "yarn install && cd ../../ && yarn install",
+            "webBuildCommand": "cd ../../ && yarn appflow-test-2 --prod"
+        },
+        {
+            "appId": "b4c1c8ad",
+            "root": "apps/dummy-app",
+            "dependencyInstallCommand": "yarn install && cd ../../ && yarn install",
+            "webBuildCommand": "cd ../../ && yarn build dummy-app --prod"
+        }
+    ]
+}
